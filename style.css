@@ -499,6 +499,7 @@ nav {
   margin: auto;
 }
 #contact input,
+#contact button,
 #contact textarea {
   width: 90%;
   padding: 10px;
@@ -525,7 +526,7 @@ nav {
 }
 
 /* Style du bouton */
-#contact input[type="button"] {
+#contact button {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -544,7 +545,7 @@ nav {
 }
 
 /* Effet au survol du bouton */
-#contact input[type="button"]:hover {
+#contact button:hover {
   background: rgb(209, 171, 0);
   box-shadow: 0px 0px 15px rgb(209, 171, 0);
   transform: scale(1.05);
