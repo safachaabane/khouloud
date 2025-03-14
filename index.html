@@ -1,15 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/happy-halloween" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
 </head>
+
 <body>
-    <ul>
-    <li>home</li>
-    <li>about</li>
-    <li>contact</li></ul>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#apropos">A propos de moi</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#experience">Éducation & Expérience</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+    <div id="slider">
+        <div class="slider-desc">
+            <p class="salut">Salut <span class="wave">👋</span></p>
+            <p class="name">Je suis KHOULOUD CHAABANE,</p>
+            <p class="job">Etudiante</p>
+            <div class="social-media">
+                <p>Contactez Nous :</p>
+                <a href="https://fr-fr.facebook.com/khouloud1chaabane">
+                    <img src="assets/fb.png" alt="" /></a>
+                <a href="https://fr-fr.facebook.com/khouloud1chaabane">
+                    <img src="assets/ln.png" alt="" /></a>
+                <a href="mailto:khouloud1chaabane@gmail.com">
+                    <img src="assets/mail.png" alt="" /></a>
+            </div>
+        </div>
+        <div class="slider-img">
+            <p id="slogan">
+                "Développeuse web passionnée et artiste, créatrice d'univers web
+                uniques et inspirants."
+            </p>
+            <img src="khouloud-border.png" alt="" />
+        </div>
+    </div>
+
+    <main>
+        <section id="apropos" class="apropos">
+            <div>
+                <div><img src="assets/about.png" alt="mon visage" /></div>
+                <div class="information">
+                    <h2 class="subtitle">A propos de moi</h2>
+                    <p>
+                        Passionnée par l’art et les nouvelles technologies, je fusionne
+                        créativité et développement web pour concevoir des expériences
+                        uniques. Avec des compétences en HTML, CSS, JavaScript, PHP et
+                        python, je donne vie à des projets modernes et fonctionnels. Mon
+                        objectif ? Transformer des idées en designs interactifs et
+                        intuitifs.
+                    <p><strong>Animée par une soif constante d’apprentissage, j’explore chaque jour de nouvelles
+                            technologies et affine mes compétences pour repousser les limites du digital. 🚀</strong>
+                    </p>
+                    </p>
+                    <!-- <ul type="circle">
+                        <li>
+                            Nom : Khouloud Chaabane
+                        </li>
+                        <li>
+                            Email : <a href="mailto:khouloud1chaabane@gmail.com">khouloud1chaabane@gmail.com</a>
+                        </li>
+                        <li>
+                            Télephone : +33 7 44 16 64 78
+                        </li>
+                        <li>
+                            Adresse: Paris, France
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="subtitle">Mes compétences</h2>
+            <h3>Programmation :</h3>
+            <div class="skills-list">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="assets/skills/html.png"
+                        alt="html" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img
+                        src="assets/skills/css.png" alt="css" /></a><a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="assets/skills/js.png"
+                        alt="js" /></a><a href="https://www.php.net/"><img src="assets/skills/php.png"
+                        alt="php" /></a><a href="https://www.python.org/"><img src="assets/skills/python.png"
+                        alt="python" /></a>
+            </div>
+            <h3>conception graphique:</h3>
+            <div class="skills-list">
+                <a href="https://www.gimp.org/">
+                    <img src="assets/skills/gimp.png" alt="gimp" /></a>
+                <a href="https://www.adobe.com/products/illustrator.html">
+                    <img src="assets/skills/ai.png" alt="illustrator" /></a>
+            </div>
+        </section>
+        <section id="experience" class="expEduc">
+            <h2 class="subtitle">Éducation & Expérience</h2>
+            <div>
+                <div class="experience">
+                    <h3>Éducation</h3>
+                    <div class="item">
+                        <p class="date">2024 - 2027</p>
+                        <div>
+                            <p class="title">Licence en Art Plastique</p>
+
+                            <p>Université Paris 8</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="date">2021 - 2022</p>
+                        <div>
+                            <p class="title">Baccalauréat en Sciences Informatiques</p>
+                            <p>Lycée Nahj Menzah Ben Khalled, Tunisie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3>Expériences professionnelles</h3>
+                    <div class="item">
+                        <p class="date">1 / 2023 - maintenant</p>
+                        <div>
+                            <p class="title">Vendeuse</p>
+
+                            <p>Accueil et conseil client, gestion des stocks</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="date">2017 - 2021</p>
+                        <div>
+                            <p class="title">Travailleuse saisonnière</p>
+                            <p>
+                                Expérience dans la production et la gestion de commandes (
+                                Atelier textile )
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projets" class="projets">
+           <div class="projets-desc">
+            <h2 class="subtitle">Mes projets</h2>
+            <p>Explorez mes premiers projets réalisés avec HTML, CSS, Bootstrap et JavaScript, où je combine créativité
+                et apprentissage pour créer des expériences web fonctionnelles et esthétiques.</p>
+            <div class="projets-list">
+                <div><img src="assets/projets/projet1.jpeg" alt="projets" class="projet-image" /></div>
+                <div><img src="assets/projets/projet1.jpeg" alt="projets" class="projet-image" /></div>
+                <div><img src="assets/projets/projet1.jpeg" alt="projets" class="projet-image" /></div>
+            </div>
+           </div>
+        
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img id="lightbox-img" src="" alt="Agrandissement">
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2 class="subtitle">Portfolio artistique</h2>
+            <div class="buttons">
+                <button id="btn-peinture" class="active">Peinture</button>
+                <button id="btn-photographie">Photographie</button>
+                <button id="btn-animation">Animation</button>
+            </div>
+
+            <div id="gallery" class="gallery"></div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img id="lightbox-img" src="" alt="Agrandissement" />
+            </div>
+        </section>
+<section id="contact">
+        <div >
+           <div>
+            <h2 class="subtitle">Contactez-moi</h2>
+            <p class="contact-message">
+                Créons quelque chose d'exceptionnel ensemble.<br /><a
+                    href="mailto:khouloud1chaabane@gmail.com">Commencez par dire bonjour 👋</a>
+            </p>
+           </div>
+            <div><form action="">
+                <input type="text" placeholder="Nom & Prénom" /><br />
+                <input type="email" placeholder="E-mail" /><br />
+                <textarea rows="5" cols="33" placeholder="Écrivez votre message ici..."></textarea><br />
+                <input type="button" value="Envoyer" />
+            </form></div>
+        </div></section>
+        <!-- <section class="video">
+            <h1>MY VIDEO :</h1>
+            <iframe width="821" height="487" src="https://www.youtube.com/embed/pOQK3HbdP30" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </section> -->
+    </main>
+    <footer>
+        <div> &copy; 2025 Tous droits réservés</div>
+        <div>Fait avec <span style="color: red;">&#10084;</span></div>
+        <div><a href="mailto:khouloud1chaabane@gmail.com">khouloud1chaabane@gmail.com</a></div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
