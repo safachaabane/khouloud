@@ -8,18 +8,29 @@ const projectImages = document.querySelectorAll(".projet-image");
 // Liste des médias (images et vidéos)
 const media = {
   photographie: [
-    "khouloud.png",
-    "khouloud.png",
-    "khouloud.png",
-    "khouloud.png",
-    "khouloud.png",
-    "khouloud.png",
+    "assets/gallery/photo1.jpeg",
+    "assets/gallery/photo2.jpeg",
+    "assets/gallery/photo3.jpeg",
+    "assets/gallery/photo4.jpeg",
+    "assets/gallery/photo5.jpeg",
+    "assets/gallery/photo6.jpeg",
+    "assets/gallery/photo7.jpeg",
+    "assets/gallery/photo8.jpeg",
+    "assets/gallery/photo9.jpeg",
+    "assets/gallery/photo10.jpeg",
+    "assets/gallery/photo11.jpeg",
   ],
   peinture: [
     "assets/gallery/peinture1.jpeg",
     "assets/gallery/peinture2.jpeg",
     "assets/gallery/peinture3.jpeg",
     "assets/gallery/peinture4.jpeg",
+    "assets/gallery/peinture5.jpeg",
+    "assets/gallery/peinture6.jpeg",
+    "assets/gallery/peinture7.jpeg",
+    "assets/gallery/peinture8.jpeg",
+    "assets/gallery/peinture9.jpeg",
+
   ],
   animation: [
     "assets/gallery/animation1.mp4",
