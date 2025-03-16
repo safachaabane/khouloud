@@ -310,7 +310,7 @@ nav {
   transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
   border: 3px solid #57006d8e;
   box-shadow: 0px 0px 12px #57006d8f;
-  max-height: 300px;
+  max-height: 250px;
   overflow: hidden;
   border-radius: 10px;
 }
